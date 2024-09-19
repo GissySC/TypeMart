@@ -1,30 +1,30 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var products = [
+const products = [
     {
         name: 'fanny pack',
         price: '30',
-        preOrder: 'true',
+        preOrder: true,
     },
     {
         name: 'beanie',
         price: '15',
-        preOrder: 'false',
+        preOrder: false,
     },
     {
         name: 'tote bag',
         price: '20',
-        preOrder: 'false',
+        preOrder: false,
     },
     {
         name: 'shirt',
         price: '20',
-        preOrder: 'true',
+        preOrder: true,
     },
     {
         name: 'hoodie',
         price: '43',
-        preOrder: 'true',
+        preOrder: true,
     },
 ];
 exports.default = products;
